@@ -18,14 +18,7 @@
   ],
   "main": "webapp/index.html",
   "scripts": {
-    "start": "fiori run --open \"test/flpSandbox.html?sap-ui-xx-viewCache=false#app-tile\"",
-    "start-noflp": "fiori run --open \"index.html?sap-ui-xx-viewCache=false\"",
-    "start-variants-management": "fiori run --open \"preview.html?fiori-tools-rta-mode=true&sap-ui-rta-skip-flex-validation=true&sap-ui-xx-condense-changes=true#preview-app\"",
-    "build": "ui5 build -a --clean-dest --include-task=generateCachebusterInfo",
-    "deploy": "fiori verify",
-    "deploy-config": "fiori add deploy-config",
-    "unit-tests": "fiori run --open 'test/unit/unitTests.qunit.html'",
-    "int-tests": "fiori run --open 'test/integration/opaTests.qunit.html'",
-    "start-mock": "fiori run --config ./ui5-mock.yaml --open \"test/flpSandbox.html?sap-ui-xx-viewCache=false#app-tile\""
+    "start": "fiori run --open \"index.html?sap-ui-xx-viewCache=false\"",
+    "build": "ui5 build -a --clean-dest --include-task=generateCachebusterInfo"
   }
 }

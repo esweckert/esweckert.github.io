@@ -1,0 +1,19 @@
+.placeButton {
+    position: absolute;
+    bottom: 0.1rem
+}
+
+.customBackground {
+    background-color: #223548;
+}
+
+.sapMBar {
+    height: 3rem;
+    line-height: 2rem
+}
+
+.center {
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 100%;
+}
