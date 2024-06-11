@@ -1,0 +1,13 @@
+.placeButton {
+    position: absolute;
+    bottom: 0.1rem
+}
+
+.customBackground {
+    background-color: #223548;
+}
+
+.sapUiSizeCompact .sapMBar {
+    height: 2.5rem;
+    line-height: 2rem
+}
