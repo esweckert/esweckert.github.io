@@ -1,6 +1,6 @@
 <mvc:View
 	height="100%"
-	controllerName="com.esweckert.profile.controller.contact"
+	controllerName="com.esweckert.profile.controller.Contact"
 	xmlns:mvc="sap.ui.core.mvc"
 	xmlns="sap.m">
 	<MessagePage showHeader="false"
