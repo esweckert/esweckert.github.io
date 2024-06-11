@@ -7,7 +7,13 @@
     background-color: #223548;
 }
 
-.sapUiSizeCompact .sapMBar {
-    height: 2.5rem;
+.sapMBar {
+    height: 3rem;
     line-height: 2rem
+}
+
+.center {
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 100%;
 }

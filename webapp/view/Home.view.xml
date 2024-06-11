@@ -78,7 +78,7 @@
 						id="MeetingButton1"
 						class="sapUiTinyMarginBeginEnd"
 						icon="sap-icon://appointment-2"
-						type="{/buttonType}"
+						type="Emphasized"
 						text="{i18n>bookMeeting}"
 						tooltip="{i18n>learnDataMigrationTooltip}"/>
 					</l:VerticalLayout>
@@ -105,12 +105,11 @@
 						id="MeetingButton2"
 						class="sapUiTinyMarginBeginEnd"
 						icon="sap-icon://appointment-2"
-						type="{/buttonType}"
+						type="Emphasized"
 						text="{i18n>bookMeeting}"
 						tooltip="{i18n>learnDataQualityTooltip}"/>
 					</l:VerticalLayout>
 				</l:BlockLayoutCell>
-
 				<l:BlockLayoutCell
 					backgroundColorSet="ColorSet10"
 					backgroundColorShade="ShadeD">
@@ -128,38 +127,70 @@
 							text="{i18n>datagovernanceContent}"
 							class="sapUiTinyMarginBottom"/>
 						<Button
+						
 						id="MeetingButton3"
-						class="sapUiTinyMarginBeginEnd"
+						class="sapUiTinyMarginBeginEnd button"
 						icon="sap-icon://appointment-2"
-						type="{/buttonType}"
+						type="Emphasized"
 						text="{i18n>bookMeeting}"
 						tooltip="{i18n>learnDatagovernanceTooltip}"/>	
 
 					</l:VerticalLayout>
 				</l:BlockLayoutCell>
 
-			</l:BlockLayoutRow>
+
+				</l:BlockLayoutRow>
 
 			<l:BlockLayoutRow>
+				<l:BlockLayoutCell 
+				backgroundColorSet="ColorSet11"
+					backgroundColorShade="ShadeC">
+		
+					<Title
+							id="followMeTitle"
+							text="Follow me"
+							level="H2"
+							titleStyle="H2"
+							textAlign="Center"
+							class="sapUiTinyMarginTopBottom"
+							width="100%"/>
+		
+				</l:BlockLayoutCell>
+				</l:BlockLayoutRow>
+
+				<l:BlockLayoutRow>
 				<l:BlockLayoutCell
-					backgroundColorSet="ColorSet11"
-					backgroundColorShade="ShadeB">
-					<l:VerticalLayout>
-						<core:Icon
-							src="sap-icon://thumb-up"
-							size="2.5rem"
-							color="Default"/>
+					backgroundColorSet="ColorSet10"
+					backgroundColorShade="ShadeD">
+					<l:HorizontalLayout class="center">
+				
+						<Image src="./images/twitter.png" width="40px"/>
 						<Title
 							level="H3"
 							titleStyle="H2"
-							class="sapUiTinyMarginTopBottom">
-							<Link text="{i18n>socialMediaTitle}" href="https://www.linkedin.com/in/esweckert" target="_blank" />
+							class="sapUiTinyMarginBegin">
+							<Link text="Twitter" href="https://x.com/esweckert" target="_blank" />
 							</Title>
-						<Text
-							text="{i18n>socialMediaContent}"
-							class="sapUiTinyMarginBottom"/>
-					</l:VerticalLayout>
+
+					</l:HorizontalLayout>
 				</l:BlockLayoutCell>
+				<l:BlockLayoutCell
+					backgroundColorSet="ColorSet10"
+					backgroundColorShade="ShadeA">
+					<l:HorizontalLayout class="center">
+				
+						<Image src="./images/linkedin.png" width="40px"/>
+						<Title
+							level="H3"
+							titleStyle="H2"
+							class="sapUiTinyMarginBegin">
+							<Link text="LinkedIn" href="https://www.linkedin.com/in/esweckert" target="_blank" />
+							</Title>
+
+					</l:HorizontalLayout>
+				
+				</l:BlockLayoutCell>
+
 
 			</l:BlockLayoutRow>
 
@@ -185,7 +216,7 @@
 
 					<Link text="Contact" 
 						press="onToContact"
-						target="_blank"/>
+					/>
 					<Link text="Privacy" 
 						href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement"
 						target="_blank"/>
