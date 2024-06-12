@@ -102,26 +102,6 @@
                     "target": "home"
                 },
                 {
-                    "pattern": "dataMigration",
-                    "name": "dataMigration",
-                    "target": "dataMigration"
-                },
-                {
-                    "pattern": "dataQuality",
-                    "name": "dataQuality",
-                    "target": "dataQuality"
-                },
-                {
-                    "pattern": "dataGovernance",
-                    "name": "dataGovernance",
-                    "target": "dataGovernance"
-                },
-                {
-                    "pattern": "contact",
-                    "name": "contact",
-                    "target": "contact"
-                },
-                {
                     "pattern": "notFound",
                     "name": "notFound",
                     "target": "notFound"
@@ -131,22 +111,6 @@
                 "home": {
                     "viewId": "home",
                     "viewName": "Home"
-                },
-                "dataMigration": {
-                    "viewId": "dataMigration",
-                    "viewName": "DataMigration"
-                },
-                "dataQuality": {
-                    "viewId": "dataQuality",
-                    "viewName": "DataQuality"
-                },
-                "dataGovernance": {
-                    "viewId": "dataGovernance",
-                    "viewName": "DataGovernance"
-                },
-                "contact": {
-                    "viewId": "contact",
-                    "viewName": "Contact"
                 },
                 "notFound": {
                     "viewId": "notFound",

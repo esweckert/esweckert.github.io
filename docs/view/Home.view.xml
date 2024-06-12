@@ -6,13 +6,6 @@
 	xmlns:core="sap.ui.core"
 	xmlns:mvc="sap.ui.core.mvc">
 	<Page showHeader="false" showFooter="true" enableScrolling="true">
-		<landmarkInfo>
-			<PageAccessibleLandmarkInfo
-				rootRole="Region"
-				rootLabel="{i18n>Home_rootLabel}"
-				contentRole="Main"
-				contentLabel="{i18n>Home_contentLabel}"/>
-		</landmarkInfo>
 		<l:BlockLayout
 			id="BlockLayout"
 			background="Default">
@@ -24,7 +17,8 @@
 							formatter: '.formatter.srcImageValue'
 						}"
 						width="100%"
-						height="100%"/>
+						height="100%"
+						/>
 				</l:BlockLayoutCell>
 			</l:BlockLayoutRow>
 
@@ -80,6 +74,7 @@
 						icon="sap-icon://appointment-2"
 						type="Emphasized"
 						text="{i18n>bookMeeting}"
+						press=".bookAppointment"
 						tooltip="{i18n>learnDataMigrationTooltip}"/>
 					</l:VerticalLayout>
 				</l:BlockLayoutCell>
@@ -107,6 +102,7 @@
 						icon="sap-icon://appointment-2"
 						type="Emphasized"
 						text="{i18n>bookMeeting}"
+						press=".bookAppointment"
 						tooltip="{i18n>learnDataQualityTooltip}"/>
 					</l:VerticalLayout>
 				</l:BlockLayoutCell>
@@ -133,13 +129,78 @@
 						icon="sap-icon://appointment-2"
 						type="Emphasized"
 						text="{i18n>bookMeeting}"
+						press=".bookAppointment"
 						tooltip="{i18n>learnDatagovernanceTooltip}"/>	
 
 					</l:VerticalLayout>
 				</l:BlockLayoutCell>
+			</l:BlockLayoutRow>
 
+			<l:BlockLayoutRow>
+				<l:BlockLayoutCell 
+				backgroundColorSet="ColorSet11"
+					backgroundColorShade="ShadeC">
+		
+					<Title
+							id="aboutTitle"
+							text="{i18n>aboutTitle}"
+							level="H2"
+							titleStyle="H2"
+							textAlign="Center"
+							class="sapUiTinyMarginTopBottom"
+							width="100%"/>
+		
+				</l:BlockLayoutCell>
+			</l:BlockLayoutRow>
 
-				</l:BlockLayoutRow>
+<!--						<l:BlockLayoutRow>
+				<l:BlockLayoutCell class="sapUiNoContentPadding">
+					<Image
+						src="{
+							parts: [{path:'view>/isPhone'}, {path:'i18n>aboutImage'}],
+							formatter: '.formatter.srcImageValue'
+						}"
+						width="100%"
+						height="100%"
+						/>
+				</l:BlockLayoutCell>
+			</l:BlockLayoutRow> -->
+
+		<l:BlockLayoutRow >
+	
+				
+				<l:BlockLayoutCell
+					width="1"
+					class="sapUiNoMarginBottom"
+					backgroundColorSet="ColorSet10"
+					backgroundColorShade="ShadeA"
+					>
+					
+					<l:VerticalLayout >
+					<Image src="./images/me.jpg" class="meImage"/>
+					</l:VerticalLayout>
+					</l:BlockLayoutCell>
+					<l:BlockLayoutCell			
+					width="2"	
+					class="sapUiNoMarginBottom"
+					backgroundColorSet="ColorSet10"
+					backgroundColorShade="ShadeA"
+					>
+					<l:VerticalLayout >
+						<Title
+							text="{i18n>aboutHeader}"
+							level="H3"
+							titleStyle="H2"
+							class="sapUiTinyMarginTopBottom"/>
+							<ToolbarSpacer/>
+						<Text
+							text="{i18n>aboutContent}"
+							class="sapUiTinyMarginBottom"/>
+							</l:VerticalLayout>
+					
+				</l:BlockLayoutCell>
+
+			</l:BlockLayoutRow> 
 
 			<l:BlockLayoutRow>
 				<l:BlockLayoutCell 
@@ -213,12 +274,12 @@
 				</contentMiddle>
 
 				<contentRight>
-
-					<Link text="Contact" 
-						press="onToContact"/>
-					<Link text="Privacy" 
+	
+					<Text text="I respect your "/>
+					<Link text="privacy" 
 						href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement"
 						target="_blank"/>
+						
 				</contentRight>
 			</Bar>
 		</content>

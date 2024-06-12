@@ -16,7 +16,14 @@ sap.ui.define([
 			Device.media.attachHandler(function (oDevice) {
 				this.getModel("view").setProperty("/isPhone", oDevice.name === "Phone");
 			}.bind(this));
+
+
 		},
+		  bookAppointment: function (oEvent) {
+			var sURL = "https://app.usemotion.com/meet/thomas.wecker/meeting";
+			sap.m.URLHelper.redirect(sURL, true);
+		},
+
 		onToContact : function () {
 			this.getOwnerComponent().getTargets().display("contact");
 		},
