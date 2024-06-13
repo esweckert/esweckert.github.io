@@ -20,15 +20,13 @@ sap.ui.define([
 
 		},
 		  bookAppointment: function (oEvent) {
-			var sURL = "https://app.usemotion.com/meet/thomas.wecker/meeting";
+			var sURL = "https://calendly.com/thomas-wecker/30min";
 			sap.m.URLHelper.redirect(sURL, true);
-		},
-
-		onToContact : function () {
-			this.getOwnerComponent().getTargets().display("contact");
-		},
-		onToDataMigration : function () {
-			this.getOwnerComponent().getTargets().display("dataMigration");
 		}
+
+//		onToDataMigration : function () {
+//			this.getOwnerComponent().getTargets().display("dataMigration");
+//		}
+
 	});
 });
