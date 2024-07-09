@@ -102,6 +102,11 @@
                     "target": "home"
                 },
                 {
+                    "pattern": "contact",
+                    "name": "contact",
+                    "target": "contact"
+                },
+                {
                     "pattern": "notFound",
                     "name": "notFound",
                     "target": "notFound"
@@ -111,6 +116,10 @@
                 "home": {
                     "viewId": "home",
                     "viewName": "Home"
+                },
+                "contact": {
+                    "viewId": "contact",
+                    "viewName": "Contact"
                 },
                 "notFound": {
                     "viewId": "notFound",

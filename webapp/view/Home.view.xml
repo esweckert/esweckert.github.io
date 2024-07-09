@@ -29,12 +29,15 @@
 		
 					<Title
 							id="headerTitle"
-							text="{i18n>headerTitle}"
+
 							level="H2"
 							titleStyle="H2"
 							textAlign="Center"
 							class="sapUiTinyMarginTopBottom"
-							width="100%"/>
+							
+							width="100%">
+						<Link text="{i18n>headerTitle}" press="onToContact" />
+						</Title>	
 						<Text
 							text="{i18n>headerContent}"
 							textAlign="Center"

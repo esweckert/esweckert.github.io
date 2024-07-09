@@ -22,11 +22,14 @@ sap.ui.define([
 		  bookAppointment: function (oEvent) {
 			var sURL = "https://calendly.com/thomas-wecker/30min";
 			sap.m.URLHelper.redirect(sURL, true);
-		}
+		},
 
-//		onToDataMigration : function () {
-//			this.getOwnerComponent().getTargets().display("dataMigration");
-//		}
+		onToContact : function () {
+//			this.getOwnerComponent().getTargets().display("contact");
+
+			const oRouter = this.getOwnerComponent().getRouter();
+			oRouter.navTo("contact");
+		}
 
 	});
 });
