@@ -2,7 +2,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
-const LATEST_URL_PARTH = "/website/";
+const LATEST_URL_PARTH = "/";
 
 const LATEST_DEPLOYMENT = process.env.DEPLOYMENT_TYPE === "latest";
 const DEVELOPMENT_ENVIRONMENT =  process.env.NODE_ENV === "development";
@@ -19,7 +19,7 @@ const getBaseURL = () => {
 const BASE_URL = getBaseURL();
 
 const getFullURL = () => {
-  return DEVELOPMENT_ENVIRONMENT ? `${BASE_URL}` : `https://esweckert.github.io${BASE_URL}`
+  return DEVELOPMENT_ENVIRONMENT ? `${BASE_URL}` : `http://resources.esweckert.com${BASE_URL}`
 }
 
 
@@ -29,7 +29,7 @@ const config: Config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://esweckert.github.io',
+  url: 'http://resources.esweckert.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
