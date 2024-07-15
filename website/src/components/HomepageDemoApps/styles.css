@@ -1,0 +1,112 @@
+.demo-apps {
+    white-space: nowrap;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  
+  .demo-apps__heading {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .demo-apps__title {
+    font-weight: 700;
+    font-size: 2.25rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    overflow-wrap: break-word;
+    white-space: normal;
+  }
+  
+  .demo-apps__desc {
+    font-size: 1.25rem;
+    margin-bottom: 4rem;
+    overflow-wrap: break-word;
+    white-space: normal;
+    text-align: center;
+    width: 50%;
+  }
+  
+  .demo-apps__frameworks {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 6rem;
+    margin: 0 5rem;
+  }
+  
+  .demo-apps__framework {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
+  
+  .demo-apps__framework:last-child {
+    margin-inline-end: 0;
+    margin-bottom:  10rem;
+  }
+  
+  .demo-apps__logo {
+    width:  17.625rem;
+    height:  17.625rem;
+    margin-top: -2.0rem;
+    margin-bottom: 0.125rem;
+  }
+
+  .demo-apps__subtitle {
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    text-wrap: wrap;
+  }
+
+  .demo-apps__subdesc {
+    font-style: normal;
+    font-weight: 300;
+    text-wrap: wrap;
+    text-align: center;
+    max-width: 26rem;
+  }
+  
+  .demo-apps__link {
+    text-align: center;
+    font-size: 0.875rem;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    margin-bottom: 0.5rem;
+  }
+  
+  .demo-apps__link:last-child {
+    margin-bottom: 0;
+  }
+  
+  @media (max-width: 900px) {
+    .demo-apps__frameworks {
+      grid-template-columns: 1fr;
+    }
+  
+    .demo-apps__desc {
+      width: 80%;
+    }
+  }
+  
+  @media (min-width: 900px) and (max-width: 1100px) {
+    .demo-apps__frameworks {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  @media (min-width: 1400px) {
+    .demo-apps__desc {
+      width: 100%;
+    }
+  }

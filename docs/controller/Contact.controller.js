@@ -1,2 +1,0 @@
-sap.ui.define(["./BaseController"],function(e){"use strict";return e.extend("com.esweckert.profile.controller.Contact",{onInit:function(){},onToHome:function(){this.getOwnerComponent().getTargets().display("home")}})});
-//# sourceMappingURL=Contact.controller.js.map

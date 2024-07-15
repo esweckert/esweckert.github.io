@@ -1,2 +1,0 @@
-sap.ui.define(["sap/ui/core/UIComponent","./model/models","sap/ui/core/routing/History","sap/ui/Device","sap/ui/model/resource/ResourceModel"],function(e,i,t,o){"use strict";return e.extend("com.esweckert.profile.Component",{metadata:{manifest:"json",interfaces:["sap.ui.core.IAsyncContentCreation"]},init:function(){e.prototype.init.apply(this,arguments);this.setModel(i.createDeviceModel(),"device");this.getRouter().initialize()}})});
-//# sourceMappingURL=Component.js.map
