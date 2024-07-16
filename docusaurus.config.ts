@@ -19,7 +19,8 @@ const getBaseURL = () => {
 const BASE_URL = getBaseURL();
 
 const getFullURL = () => {
-  return DEVELOPMENT_ENVIRONMENT ? `${BASE_URL}` : `https://esweckert.github.io${BASE_URL}`
+    return `${BASE_URL}`
+//  return DEVELOPMENT_ENVIRONMENT ? `${BASE_URL}` : `https://esweckert.github.io${BASE_URL}`
 }
 
 
