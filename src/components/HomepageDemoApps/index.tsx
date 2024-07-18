@@ -12,8 +12,8 @@ type Item = {
 
 const DemoAppList: Array<Item> = [
   {
-    title: "Product Transfer App",
-    desc: "App to trigger API transfer of products from a central instance to SAP S/4HANA",
+    title: "Demo: Data Transfer App",
+    desc: "Simple app to replicate data transfer from an external system to SAP S/4HANA. User is guided through the steps via the app, asked to provide required informations.",
     Svg: require('@site/static/img/demo-apps/image1.svg').default,
     repository: "https://github.com/esweckert/demo_fiori_wizard",
     demo: "https://esweckert.github.io/demo_fiori_wizard/#app-tile",
@@ -26,10 +26,10 @@ const DemoAppList: Array<Item> = [
     demo: "https://sap-samples.github.io/ui5-webcomponents-sample-react/",
   },
   {
-    title: "Excel Upload of Products",
-    desc: "App to trigger API transfer of products from a central instance to SAP S/4HANA",
+    title: "Demo: Excel Mass Maintenance App",
+    desc: "With this SAPUI5 App users have the possibility to mass maintain material master data within SAP S/4HANA by uploading data from Excel. The app provides the possibility to validate the data prior to the POST.",
     Svg: require('@site/static/img/demo-apps/image3.svg').default,
-    repository: "https://github.com/SAP-samples/ui5-webcomponents-sample-vue",
+    repository: "https://github.com/esweckert/demo_excel_upload",
     demo: "https://sap-samples.github.io/ui5-webcomponents-sample-vue/",
   },
   {
