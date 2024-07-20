@@ -42,7 +42,7 @@ const FeatureList: FeatureItem[] = [
        Sharing real-life and hands-on experience with the latest SAP products and technologies.
       </>
     ),
-    demo: "https://github.com/esweckert/tutorials",
+    demo: "https://github.com/esweckert/tutorials/blob/main/README.md",
   },
 ];
 
