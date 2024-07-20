@@ -6,7 +6,7 @@ title: Terms of Use
 
 **Your Use of This Website is Governed By These Terms & Conditions**
 
-Welcome to **.resources.esweckert.digital.** These Terms & Conditions apply to the Target website located at www.esweckert.digital and all other sites, mobile sites, services, applications, platforms and tools where these Terms & Conditions appear or are linked (collectively, the "Site"). As used in these Terms & Conditions, "Thomas F. Wecker", "me" or "I" refers to Thomas F. Wecker as creator of this website.
+Welcome to **.resources.esweckert.digital.** These Terms & Conditions apply to the website located at https://resources.esweckert.digital and all other sites, mobile sites, services, applications, platforms and tools where these Terms & Conditions appear or are linked (collectively, the "Site"). As used in these Terms & Conditions, "Thomas F. Wecker", "me" or "I" refers to Thomas F. Wecker as creator of this website.
 
 ## Introduction
 BY ACCESSING OR OTHERWISE USING THE SITE YOU AGREE TO THESE TERMS & CONDITIONS. Any person or entity who interacts with the Site through the use of crawlers, robots, browsers, data mining or extraction tools, or other functionality, whether such functionality is installed or placed by such person or entity or a third party, is considered to be using the Site. If at any time you do not accept all of these Terms & Conditions, you must immediately stop using the Site. Certain areas within the Site may be governed by additional terms and policies ("Additional Terms"). By using those areas of the Site, you agree to the Additional Terms. The Additional Terms are incorporated into these Terms & Conditions, and any reference to these Terms & Conditions includes the Additional Terms.
